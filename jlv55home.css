@@ -1,0 +1,269 @@
+/*
+ * Code by Juan Lago Vázquez, @JLV_55
+ * www.twitter.com/JLV_55
+ * www.jlv55.com
+*/
+
+body {
+	margin: 0px;
+}
+h2 {text-align: center; padding-top: 25px; }
+h3 { padding-left: 30px}
+#personalInfo {
+	margin-top: 50px;
+	width: 100%;
+}
+#personalInfo img {display: block; margin: 0 auto 0 auto; width: 200px; height: 200px; border-radius: 100%;}
+#personalInfo h1 {text-align: center;}
+#personalInfo small p {text-align: center;}
+
+.workcarac {
+	display: inline-block;
+	width: 33%;
+	padding: 0 7% 0 7%;
+}
+
+#sm {
+	width: 209px;
+	margin: 0 auto 35px auto;
+}
+
+.sm {
+	display: inline-block;
+	margin: 10px;
+}
+
+#twitter {color: #00ACED;}
+#youtube {color: #CD332D;}
+#google {color: #D14836;}
+#github {color: #4183C4; }
+#facebook {color: #3B5998;} 
+#rss {color: #FF8300;}
+#pinterest {color: #CB2027;}
+#mail {color: #FF8300}
+
+.sm {
+transition: all 0.17s ease-in-out;
+-moz-transition: all 0.17s ease-in-out;
+-webkit-transition: all 0.17s ease-in-out;
+-o-transition: all 0.17s ease-in-out;
+}
+.sm:hover {
+  transform: scale(1.2) rotate(360deg);
+  -ms-transform: scale(1.2) rotate(360deg); /* IE 9 */
+  -moz-transform: scale(1.2) rotate(360deg); /* IE 9 */
+  -webkit-transform: scale(1.2) rotate(360deg); /* Safari and Chrome */
+}
+
+.regularContainer {
+	position: relative;
+}
+
+
+
+
+
+
+
+#tweetContainer {
+	background-color: #00ACED;
+	padding: 60px 0 60px 0;
+	margin-top: 20px;
+}
+#tweetContainer ul {
+	width: 100%;
+	list-style: none;
+	margin: 0 0 0 0;
+}
+
+#tweets {
+	width: 90%;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+#tweets {
+  font-size:18px;
+  line-height:24px;
+  color: white;
+}
+#tweets span {
+	display: block;
+	font-size: 12px;
+}
+
+#tweets a {
+  color: #0969A2;
+}
+
+#tweets ul li a img{
+	float: left;
+	border-radius: 100%;
+	margin-top: -15px;
+}
+
+.twitter_author {
+	margin: 0 auto 0 auto;
+	width: 55px;
+}
+.twitter_author a{
+  font-size: 62px;
+  line-height: 82px;
+  text-align: center;
+  color: #fff;
+}
+
+
+.videoContainer {
+  padding-top: 10px;
+  width: 100%;
+  height: 400px;
+  float: none;
+  display: block; 
+}
+.infoVideo {
+  display: inline-block;
+  width: 40%;
+  height: 340px;
+  margin: 30px 30px 0px 30px;
+  text-align: right;
+  border-top: solid 1px;
+}
+.infoVideo nav a {
+	color: #3B5998;
+}
+.textleft {
+  text-align: left;
+}
+
+.videoReproductor {
+  width: 45%;
+  height: 340px;
+  margin: 30px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.videoReproductor img {height: 340px;}
+ .videoReproductor iframe,
+ .videoReproductor object,
+ .videoReproductor embed,
+ .videoReproductor video {
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 340px;
+    width: 100%;
+ }
+
+.floatleft {
+  float: left !important;
+}
+.floatright {
+  float: right;
+}
+
+
+.parallax {
+	width: 100%;
+	height: 7em;
+	border-top: 1px solid;
+	border-bottom: 1px solid;	
+}
+#portfolioCnt {	background: url(money.jpg) 50% 0 no-repeat fixed;
+  background-size: 100%;
+}
+#blogCnt {	background: url(goto2.jpg) 50% 0 no-repeat fixed;
+background-size: 100%;}
+.parallaxInfo nav {text-align: center; font-size: 8em;}
+
+.elegantNote {
+	width: 50%;
+	margin: 50px 0px 0 10%;
+	float: left;
+}
+.elegantNote p {font-size: 2em; text-align: center;}
+
+#infoCnt {
+	border-left: solid 1px;
+	width: auto;
+	height: auto;
+	margin: 50px;
+	padding-left: 25px;
+	float: left;
+}
+#infoCnt span {
+	display: block;
+}
+#infoCnt span strong {
+	color: #00ACED;
+}
+
+
+
+
+/* Effect 15: Wizard   <-----------  nav a link cool style*/
+
+/*
+.nav-15 a {
+    color: rgba(53, 44, 44, 0.59);
+}
+.nav-15 a::after {
+    display: block;
+	position: absolute;
+    width:100%;
+	top: 0%;
+	left: 0%;
+	content: attr(data-hover);
+    opacity: 1;
+    color: #fff;
+	-webkit-transition: text-shadow 1s, color 0.8s, opacity 0.8s 0.2s;
+	-moz-transition: text-shadow 1s, color 0.8s, opacity 0.8s 0.2s;
+	transition: text-shadow 1s, color 0.8s, opacity 0.8s 0.2s;
+}
+
+.nav-15 a:hover::after,
+.nav-15 a:focus::after {
+    opacity: 0;
+    color: #000;
+    text-shadow: -10px 1px 8px #ffc, 10px -1px 8px #fff
+}
+*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.videoContainer {padding-top: 25px; padding-bottom: 25px; height: auto; background-size: 100% 100% !important;}
+  .infoVideo { display: block; width: 60%; height: auto; margin: 0 auto 0 auto; text-align: center;   padding: 0 0 0 0; position: relative;}
+  .videoReproductor { display: block; float: none; width: 60%; margin: 0 auto 0 auto;}
+  .floatleft {float: none !important;}
+  #blogCnt { background-size: auto;}
+  #portfolioCnt {background-size: auto;}
+  }
+
+  @media only screen and (max-width: 767px) {
+.videoContainer {padding-top: 25px; padding-bottom: 25px; height: auto;  background-size: 100% 100% !important;}
+  .infoVideo { display: block; width: 75%; height: auto; margin: 0 auto 0 auto; text-align: center;   padding: 0 0 0 0; position: relative;}
+  .videoReproductor { display: block; float: none; width: 75%; margin: 0 auto 0 auto;}
+  .floatleft {float: none !important;}
+  .workcarac {display: inline-block; width: 32%; padding: 0;}
+  .parallaxInfo nav {font-size: 5em;}
+    #blogCnt { background-size: auto;}
+    #portfolioCnt {background-size: auto;}
+       .elegantNote p {font-size: 1.5em;}
+   .elegantNote {width: 80%; }
+
+
+}
+
+@media only screen and (max-width:479px) {
+.videoContainer {padding-top: 25px; padding-bottom: 25px; height: auto;  background-size: 100% 100% !important;}
+  .infoVideo { display: block; width: 90%; height: auto; margin: 0 auto 0 auto; text-align: center;   padding: 0 0 0 0; position: relative;}
+  .videoReproductor { display: block; float: none; width: 90%; margin: 0 auto 0 auto;}
+  .floatleft {float: none !important;}
+   .workcarac {display: inline-block; font-size: 0.7em;}
+   .parallaxInfo nav {font-size: 3.5em;}
+   .elegantNote p {font-size: 1.5em;}
+   .elegantNote {width: 80%; }
+
+  }
+
